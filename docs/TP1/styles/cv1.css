@@ -1,0 +1,30 @@
+html{
+    background-color: black;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+header, footer, a{
+    background-color: rgb(37, 37, 92);
+    color : beige;
+}
+header {
+    text-align: center;
+}
+
+body{
+    background-color: beige;
+}
+
+section{
+    margin-left: 15%;
+}
+
+section p, li{
+    color : rgb(68, 68, 216);
+}
+
+time{
+    color: grey;
+}
