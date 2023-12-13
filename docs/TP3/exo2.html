@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <link rel="stylesheet" type="text/css" href="styles/page1.css">
+    <title> Exo 2 </title>
+</head>
+
+<body>
+    <h1>Exo 2</h1>
+    <span id="cpt">0</span>
+
+    <script>
+        let compteur = 0;
+        const element = document.getElementById("cpt");
+
+        setInterval(add, 2000);
+        function add() {
+            if (compteur == 28) stop();
+            else {
+                compteur += 2;
+                element.innerHTML = compteur;
+            }
+        }
+
+        function stop() {
+            element.innerHTML = "temps dépassé";
+            clearInterval(element);
+        }
+    </script>
+</body>
+
+</html>
